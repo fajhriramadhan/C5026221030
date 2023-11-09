@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.bannerindex{
+    width: 100%;
+    height: 100vh;
+  
+    background-image: url(bgmirror.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.95;
+}
+.bannertop{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background: white;
+    height: 90vh;
+}
+.bannermid{
+    width: 100%;
+    height: 100vh;
+    background-image: url(bgchopper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navbar {
+    top: 0;
+    position: fixed;
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.contentright{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    text-align:  right;
+    color: white;
+}
+.contentleft{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    padding-top: 20%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 100;
+    line-height: 25px;
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 25px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+  
+span{
+    background: red;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.crewimg{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    
+}
+.formulir{
+    border: 2px;
+    border-style: dashed;
+    border-color: black;
+    box-shadow: 3px 3px 6px rgba(0,0,0,.4);
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    min-height: 50vh;
+    color: white;
+}
+

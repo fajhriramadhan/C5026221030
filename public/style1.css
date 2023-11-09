@@ -1,0 +1,134 @@
+body{
+    background-image: radial-gradient(#c41500,#7b0116);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+head{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.titlefajhri{
+    font-size: 20px;
+}
+  
+.containerdotfajhri{
+    margin-left: 24%;
+    margin-right: 19%;
+    top: 5px;
+    height: 40px;
+}
+.belltitlefajhri{
+    padding-left: 50px;
+    position: absolute;
+    padding-top: 9px;
+    color: black;
+}
+.belliconfajhri{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    left: 7px;
+    position: absolute;
+    top: 7px;
+}
+.sublinkfajhri{
+    border: 1px solid #dedede;
+    border-radius: 50px;
+    background:none;
+    display: flex;
+    height: 40px;
+    max-width:160px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 70%;
+    background-color: white;
+
+}
+.dotfajhri{
+    border-radius: 50%;
+    
+    width: 40px;
+    position: absolute;    
+}
+.containerfajhri{
+    align-items: center; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 10px;
+}
+.profile-ingfajhri {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.linkfajhri {
+    border: 1px solid #dedede;
+    border-radius: 50px;
+    background: none;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none
+}
+.iconbotfajhri{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    left: 5px;
+    position: relative;
+    top: 5px;
+}
+.iconlinkfajhri{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+}
+
+.linktitlefajhri{
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    color: white;
+}
+.linktitlefajhri:hover{
+    color: #7b0116;
+}
+.linkfajhri:hover{
+    background-color: white;
+    color: #7b0116;
+}
+.icontitik3fajhri{
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+}
+.containericonfajhri {
+    align-items: center; 
+    color: white;
+    display: flex;
+    justify-content: center; 
+    padding: 10px;
+}
+.linktrefajhri{
+    height: 100px;
+    width: 200px;
+    position: relative;
+    top: 5px;
+}

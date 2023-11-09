@@ -1,0 +1,74 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.my-polygon{
+    object-fit: cover;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.my-konten{
+    margin-top: 3vw;
+    width: fit-content;
+
+}
+.my-logo{
+    display: flex;
+    margin-bottom: 2vw;
+}
+.my-logo img{
+    width: 10vw;
+    margin-left: auto;
+}
+
+.my-judul{
+    width: fit-content;
+    font-size: 2.7vw;
+    font-weight: bold;
+}
+.my-list{
+    display: flex;
+    height: fit-content;
+}
+.my-list ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.my-list li{
+    margin-left: 2vw;
+    margin-top: -5px;
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
+.my-list img{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.my-isi ul{
+    display: block;
+    list-style: none;
+    padding: 0px;
+}
+.my-isi .my-list{
+    padding-bottom: 20px;
+}
+.my-isi{
+    margin-top: 20px;
+}
+
+
+
+
+
+
