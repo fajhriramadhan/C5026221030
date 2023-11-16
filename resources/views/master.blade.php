@@ -13,7 +13,7 @@
 
 <div class="container">
     <header>
-        <h2>Blog Reza</h2>
+        <h2>Blog Fajhri Ramadhan A.</h2>
         <nav>
             <a href ="/blog">HOME</a>
             |
