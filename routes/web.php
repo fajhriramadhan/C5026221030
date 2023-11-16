@@ -61,3 +61,5 @@ Route::get('p5',function(){
 });
 
 Route::get('perkalian', 'App\Http\Controllers\MyController@index');
+
+Route::get('showjam/{jam}', 'App\Http\Controllers\MyController@showtime');
