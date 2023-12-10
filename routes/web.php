@@ -89,3 +89,16 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
 
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+
+Route::get('/kertashvs','App\Http\Controllers\KertashvsController@index');
+Route::get('/kertashvs/tambah','App\Http\Controllers\KertashvsController@tambah');
+Route::post('/kertashvs/store','App\Http\Controllers\KertashvsController@store');
+Route::get('/kertashvs/hapus/{id}','App\Http\Controllers\KertashvsController@hapus');
+Route::get('/kertashvs/edit/{id}','App\Http\Controllers\KertashvsController@edit');
+Route::post('/kertashvs/update','App\Http\Controllers\KertashvsController@update');
+Route::get('/kertashvs/view/{id}','App\Http\Controllers\KertashvsController@view');
+
+
