@@ -101,4 +101,8 @@ Route::get('/kertashvs/edit/{id}','App\Http\Controllers\KertashvsController@edit
 Route::post('/kertashvs/update','App\Http\Controllers\KertashvsController@update');
 Route::get('/kertashvs/view/{id}','App\Http\Controllers\KertashvsController@view');
 
+Route::get('/karyawan','App\Http\Controllers\KaryawanController@index');
+Route::get('/karyawan/tambah','App\Http\Controllers\KaryawanController@tambah');
+Route::post('/karyawan/store','App\Http\Controllers\KaryawanController@store');
+Route::get('/karyawan/hapus/{id}','App\Http\Controllers\KaryawanController@hapus');
 
